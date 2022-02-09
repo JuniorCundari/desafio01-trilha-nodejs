@@ -117,3 +117,5 @@ app.delete("/todos/:id", verifyExistsUserAccount, (request, response) => {
 });
 
 module.exports = app;
+
+/* app.listen(3333); */
